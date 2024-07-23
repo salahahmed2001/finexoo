@@ -21,7 +21,7 @@ function App() {
    <Fragment>
     <NavbarComp/>
     <Routes>
-      <Route path='/finexo' element={<HomeComp />} />
+      <Route path='/' element={<HomeComp />} />
       <Route path='/About' element={<AboutComp />} />
       <Route path='/Services' element={<ServicesComp />} />
       <Route path='/WhyUs' element={<WhyUsComp />} />
